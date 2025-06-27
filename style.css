@@ -1,0 +1,25 @@
+#divcompleta {
+    background: white; 
+}
+
+#titulos {
+    color: blue;
+    background: gray;
+    
+}
+
+#sobre {
+    color: gray;
+    font-weight: bold;
+}
+
+#divdebaixo {
+    background: white;   
+}
+
+#cabecalho {
+    color: black;
+    font-weight: bold;
+    font-size: 1.1em;
+    
+}
