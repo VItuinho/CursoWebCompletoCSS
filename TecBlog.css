@@ -14,7 +14,7 @@
 }
 
 .conteudo {
-    margin: 15px;
+    margin: 20px;
 }
 
 .conteudo img {
@@ -29,7 +29,7 @@
 .conteudo p {
     margin: 0px;
     font-size: small;
-    
+
 }
 
 h1 {
@@ -47,6 +47,17 @@ h1 span{
     background-color: orange;
     padding: 30px 20px 10px 20px;    
     text-align: center;
+}
+
+.postagens-recentes {
+    padding: 5px;
+    margin: 0px;
+    background-color: white;
+    width: 250px;
+    height: 200px;
+    position: relative;
+    left: 1350px;
+    top: -935px;
 }
 
 li {
