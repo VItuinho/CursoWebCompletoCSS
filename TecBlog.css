@@ -1,0 +1,64 @@
+.principal {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gainsboro;
+}
+
+.corpo-da-pagina {
+    display: inline-block;
+    position: relative;
+    margin: 15px;
+    left: 500px;
+    height: 900px;
+    width: 800px;
+    background-color: white;
+}
+
+.conteudo {
+    margin: 15px;
+}
+
+.conteudo img {
+    width: 750px;
+}
+
+.conteudo h2 {
+    color: orange;
+    margin: 0px;
+}
+
+.conteudo p {
+    margin: 0px;
+    font-size: small;
+    
+}
+
+h1 {
+    text-align: center;
+    display: inline;
+    color: rgb(54, 54, 54);
+    font-size: 50px;
+}
+
+h1 span{
+    color: white;
+}
+
+.menu {
+    background-color: orange;
+    padding: 30px 20px 10px 20px;    
+    text-align: center;
+}
+
+li {
+    display: inline;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
