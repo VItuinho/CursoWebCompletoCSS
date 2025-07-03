@@ -1,6 +1,7 @@
 .principal {
     font-family: Arial, Helvetica, sans-serif;
     background-color: gainsboro;
+    height: 1500px;
 }
 
 .corpo-da-pagina {
@@ -8,9 +9,32 @@
     position: relative;
     margin: 15px;
     left: 500px;
-    height: 900px;
+    height: 650px;
     width: 800px;
     background-color: white;
+}
+
+.corpo-da-pagina {
+    a {
+        color: orange;
+    }
+}
+
+.corpo-da-pagina2 {
+    display: inline-block;
+    position: relative;
+    margin: 15px;
+    left: -335px;
+    height: 650px;
+    width: 800px;
+    background-color: white;
+    top: 680px;
+}
+
+.corpo-da-pagina2 {
+    a {
+        color: orange;
+    }
 }
 
 .conteudo {
@@ -27,7 +51,7 @@
 }
 
 .conteudo p {
-    margin: 0px;
+    margin: 5px 0px 5px 0px;
     font-size: small;
 
 }
@@ -39,13 +63,13 @@ h1 {
     font-size: 50px;
 }
 
-h1 span{
+h1 span {
     color: white;
 }
 
 .menu {
     background-color: orange;
-    padding: 30px 20px 10px 20px;    
+    padding: 30px 20px 10px 20px;
     text-align: center;
 }
 
@@ -54,13 +78,45 @@ h1 span{
     margin: 0px;
     background-color: white;
     width: 250px;
-    height: 200px;
+    height: 170px;
     position: relative;
-    left: 1350px;
-    top: -935px;
+    left: 1340px;
+    top: -665px;
 }
 
-li {
+.postagens-recentes {
+    a {
+        color: orange;
+        text-decoration: none;
+    }
+
+    p {
+        margin: 0px;
+    }
+
+}
+
+.categorias {
+    padding: 5px;
+    margin: 0px;
+    background-color: white;
+    width: 250px;
+    height: 135px;
+    position: relative;
+    left: 1340px;
+    top: -645px;
+}
+
+h3 {
+    margin: 2px;
+    color: black;
+    background-color: rgb(175, 175, 175);
+    padding: 4px;
+}
+
+
+
+.menu li {
     display: inline;
     color: white;
     text-align: center;
@@ -69,7 +125,30 @@ li {
     font-weight: bold;
 }
 
-li a {
+.menu li a {
     color: white;
     text-decoration: none;
+}
+
+.menu a:hover {
+    padding: 10px;
+    background-color: white;
+    color: orange;
+}
+
+.categorias ul {
+    margin: 0px;
+    padding: 5px;
+}
+
+.categorias li {
+    display: block;
+    color: orange;
+}
+
+.categorias li a {
+    color: orange;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
 }
